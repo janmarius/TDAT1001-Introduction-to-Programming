@@ -1,1 +1,1 @@
-# TDAT1001-Introduction-to-Programming
+# TDAT1001 - Introduction to Programming
