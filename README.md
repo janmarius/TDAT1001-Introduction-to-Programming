@@ -21,7 +21,14 @@
   - [7.8.1 - Program som går i løkke og henter ut tilfeldige tall](7.8.1%20-%20Program%20som%20går%20i%20løkke%20og%20henter%20ut%20tilfeldige%20tall)
   - [7.8.3 - Klasse for tekstanalyse](7.8.3%20-%20Klasse%20for%20tekstanalyse)
 - Assignment 7
+  - [9.11.2 - Klassen Temperaturer](9.11.2%20-%20Klassen%20Temperaturer)
+  - [10.9.1 - Tegning av Smiley](10.9.1%20-%20Tegning%20av%20Smiley)
 - Assignment 8
+  - [8.16.1 - Klassen NyString](8.16.1%20-%20Klassen%20NyString)
+  - [8.16.3 - Klassen Tekstbehandling](8.16.3%20-%20Klassen%20Tekstbehandling)
 - Assignment 9
+  - [11.10.1 - Klassen Person og ArbTaker, samarbeid mellom objektene](11.10.1%20-%20Klassen%20Person%20og%20ArbTaker%2C%20samarbeid%20mellom%20objektene)
 - Assignment 10
+  - [12.10.1 - Klassen Student og Oppgaveoversikt](12.10.1%20-%20Klassen%20Student%20og%20Oppgaveoversikt)
 - Assignment 11
+  - [16.13.3 - Program som vedlikeholder en konto ved hjelp av skriving og lesing til filer](16.13.3%20-%20Program%20som%20vedlikeholder%20en%20konto%20ved%20hjelp%20av%20skriving%20og%20lesing%20til%20filer)
