@@ -24,11 +24,11 @@ class Tegning extends JPanel {
 		tegneflate.setColor(Color.YELLOW);
 		tegneflate.fillOval(40, 30, 400, 400);
 
-		// Lager et svar omrisse rundt ansiktet
+		// Lager et svart omrisse rundt ansiktet
 		tegneflate.setColor(Color.BLACK);
 		tegneflate.drawOval(40, 30, 400, 400);
 
-		// Tegner øyner
+		// Tegner Ã¸yner
 		tegneflate.fillOval(160, 100, 40, 130);
 		tegneflate.fillOval(280, 100, 40, 130);
 
@@ -38,6 +38,6 @@ class Tegning extends JPanel {
 		tegneflate.setColor(Color.MAGENTA);
 		Font tekst = new Font("SansSerif", Font.BOLD, 32);
 		tegneflate.setFont(tekst);
-		tegneflate.drawString("Dette er Kåre!", 140, 455);
+		tegneflate.drawString("Dette er KÃ¥re!", 140, 455);
 	}
 }
