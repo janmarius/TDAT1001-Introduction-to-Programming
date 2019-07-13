@@ -6,7 +6,7 @@
   - [2.13.2 - Timer, minutter og sekunder til antall sekunder](2.13.2%20-%20Timer%2C%20minutter%20og%20sekunder%20til%20antall%20sekunder)
   - [2.13.3 - Sekunder til antall timer, minutter og sekunder](2.13.3%20-%20Sekunder%20til%20antall%20timer%2C%20minutter%20og%20sekunder)
 - Assignment 2
-  - [3.12.3 - Program som finner ut om et år er skuddår](2.13.3%20-%20Sekunder%20til%20antall%20timer%2C%20minutter%20og%20sekunder)
+  - [3.12.3 - Program som finner ut om et år er skuddår](3.12.3%20-%20Program%20som%20finner%20ut%20om%20et%20år%20er%20skuddår)
   - [3.12.4 - Program som sammenligner kjøttdeigpris](3.12.4%20-%20Program%20som%20sammenligner%20kjøttdeigpris)
 - Assignment 3
   - [4.14.1 - Program som skriver ut en del av multiplikasjonstabellen](4.14.1%20-%20Program%20som%20skriver%20ut%20en%20del%20av%20multiplikasjonstabellen)
