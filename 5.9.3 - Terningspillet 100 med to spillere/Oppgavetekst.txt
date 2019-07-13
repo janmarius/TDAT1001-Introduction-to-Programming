@@ -1,0 +1,34 @@
+Du skal programmere terningspillet 100 med to spillere, A og B. Reglene er som
+følger:
+
+A og B kaster terningen annenhver gang. Antall øyne på terningen er antall poeng
+oppnådd i denne runden. Poengene summeres fortløpende. Dersom en spiller kas-
+ter 1, settes summe tilbake til 0. Den som først passerer 100 poeng, har vunnet
+spillet.
+
+Lag en klasse som simulerer en spiller. Den kan ha sumPoeng som objektvariabel
+og metoder som heter getSumPoeng(), kastTerningen() og erFerdig().
+
+For å simulere terningen skal du bruke klassen java.util.Random fra java-API-et
+(se side 238). Denne klassen brukes til å lage rekker med tilfeldige tall. La et
+objekt av klassen være objektvariabel:
+
+java.util.Random terning = new java.util.Random(); // vi lager en tilfeldigtallgenerator
+
+I metoden kastTerning() henter du et tilfeldig tall i intervallet [0, 5] på følgende
+måte:
+
+int terningkast = terning.next(6);
+
+Legg til 1 for å få et gyldig terningkast.
+
+Lag et klientprogram som oppretter to objekter av klassen, ett for hver av spillerne.
+Lag en løkke som kjører inntil en av spillerne har vunnet. I hvert gjennomløp av
+løkken skal hver spiller kaste terningen en gang. Skriv ut rundenummer og poeng-
+summene til hver av spillerne i hvert gjennomløp. Det er sannsynligvis mest prak-
+tisk å skrive til kommandovinduet her.
+
+En raffinering av spillet kan være å kreve at man skal komme akkurat til 100. Der-
+som denne grensen er passert, skal neste kast trekkes fra poengsummen. Hvis man
+nå havner akkurat på 100, er man ferdig. Ellers legges neste kast til, og slik holder
+man på og legg til og trekker fra inntil man kommer akkurat til 100.

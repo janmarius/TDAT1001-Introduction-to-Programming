@@ -1,0 +1,10 @@
+Lag et program (applet eller applikasjon) som tegner ut tre ulike geometriske figu-
+rer (velg selv formen på figurene) i tilfeldige farger spredt rundt i et vindu. La totalt
+antall figurer være en navngitt konstant slik at det enkelt kan endres.
+
+Bruk tilfeldigtallgeneratoren (klassen Random, side 238) til å bestemme typen
+figur, fargen og plasseringen. Lagre fargene i en tabell som vist i programliste 10.2,
+side 326.
+
+La tilfeldigtallgeneratoren trekke et tall som gir en indeks i denne tabellen, det vil
+si et tall i intervallet [0, 12]. Fargen henter du fram ved å skrive farger[indeks].

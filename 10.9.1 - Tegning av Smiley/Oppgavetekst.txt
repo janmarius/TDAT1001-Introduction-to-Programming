@@ -1,0 +1,2 @@
+Lag en tegning av "Smiley". Legg tegningen først i en applikasjon, deretter i en
+applet.

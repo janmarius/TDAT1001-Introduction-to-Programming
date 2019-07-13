@@ -1,0 +1,32 @@
+Lag en klasse som inneholder en tabell med priser på varer. Varenummeret svarer
+til indeksen i tabellen +1000. Klassen må ha en variabel, antallRegistrert, som hol-
+der rede på hvor mange varer som til enhver tid er registrert. Denne variabelen skal
+ha verdien 0 før første vareregistrering.
+
+I denne klassen er det tilstrekkelig med standardkonstruktøren. Du trenger altså
+ikke lage en egen konstruktør.
+
+Lag metoder for å
+- registrere en ny vare. Hvis det ikke er plass i tabellen, skal den "utvides" som
+  som forklart i kapittel 9.4. Metoden skal returnere varenummeret;
+- registrere en ny pris på en vare med et gitt nummer;
+- finne prisen til en vare gitt nummeret;
+- endre prisen på en vare som allerede er lagt inn. Endringen skal oppgis i pro-
+  sent.
+
+La de tre siste metodene returnere en feilkode dersom ugyldig varenummer oppgis.
+
+Lag også en toString()-metode som kan brukes til å skrive ut nummer og pris på
+alle varene.
+
+Lag en enkelt testklient der du prøver ut det viktigste av funksjonaliteten i klassen.
+
+Lag deretter et enkelt menystyrt klientprogram der brukeren kan velge mellom de
+fire operasjonene foran. Bruk showInputDialog(). Programmet skal gå i løkke
+slik at flere operasjoner kan utføres. Inne i løkken bruker du en switch-setning for
+å dirigere programkontrollen til riktig operasjon. Etter hver operasjon skal all
+vareinformasjon skrives ut (toString()-metoden).
+
+Legg så mye som mulig av brukerkommunikasjonen i en egen klasse, VareBGS,
+slik at main()-metoden blir så oversiktlig som mulig. Tips: Bruk samme teknikk
+som i programliste 9.6, side 307.

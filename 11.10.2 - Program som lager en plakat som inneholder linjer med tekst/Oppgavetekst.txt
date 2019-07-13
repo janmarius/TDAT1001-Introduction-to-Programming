@@ -1,0 +1,20 @@
+Oppgaven forutsetter at du har arbeidet med grafikkprogrammering (kapittel 10).
+
+Du skal lage en klasse Plakat. Plakaten skal ha flere linjer, og hver linje skal ha sin
+egen skrifttype, bokstavstørrelse og farge. Teksten er også et attributt til linjen.
+
+Klassen skal brukes i et vindu. Du trenger derfor også metoder for å tegne. Para-
+meteren til paintComponent() må overføres videre til de tegnemetodene du lager i
+klassen Plakat og eventuelt i klassen Linje.
+
+Lag de nødvendige klassene med en liten testklient.
+
+Antall linjer samt teksten på hver enkelt linje skal leses inn fra brukeren.
+
+Tips: Følgende kodelinjer gir deg alle tilgjengelige skrifttyper:
+
+GraphicsEnviroment env = GraphicsEnviroment.getLocalGraphicsEnviorment();
+Font[] alleFonter = env.getAllFonts(); // se online API-dok for beskrivelse
+
+Bruk tilfeldigtallgeneratoren på gyldige indekser til å finne en tilfeldig skrifttype.
+Gjør tilsvarende for farge og størrelse.

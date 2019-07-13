@@ -1,0 +1,3 @@
+Lag et program som hjelper oss i forhold til følgende problemstilling: Kjøttdeig av
+merke A koster kr 35,90 for 450 gram, mens av merke B koster 39,50
+for 500 gram. Hvilket merke er billigst?

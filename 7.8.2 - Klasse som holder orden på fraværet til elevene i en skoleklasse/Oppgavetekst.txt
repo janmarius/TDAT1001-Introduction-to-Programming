@@ -1,0 +1,56 @@
+Lag en klasse som kan brukes til å holde orden på fraværet til elevene i en skole-
+klasse. Klassen skal ha en heltallstabell som objektvariabel, og størrelsen på tabel-
+len, som er lik antall elever i klassen, skal være parameter til konstruktøren. Kon-
+struktøren skal kaste unntaksobjekt av typen IllegalArgumentException hvis antall
+elever er negativt.
+
+Tabellen skal altså deklareres som objektvariabel:
+
+private int[] fravær;
+
+og opprettes i konstruktøren:
+
+fravær = new int[antElever];
+
+Du kan anta at antall elever i klassen ikke forandres. Elevnummeret er 1 høyere enn
+indeksen i tabellen.
+
+Lag metoder for å
+- finne antall elever i klassen;
+- hente ut fravær for en bestemt elev. Hvis ugyldig elevnummer, skal metoden
+  returnere -1;
+- endre fraværet for en bestemt elev. Elevnummeret og endringen (positiv eller
+  negativ) skal være parametere. Hvis ugyldig elevnummer, skal metoden retur-
+  nere -1, ellers det nye fraværet;
+- finne gjennomsnittlig fravær i klassen;
+- finne antall elever som ikke har fravær i det hele tatt;
+
+Lag en testklient på samme måte som i kapittel 6.6, side 198, med utgangspunkt i
+testdataene satt opp nedenfor. Aktuelle metodekall og forventede resultater er gitt
+i tabell 7.1.
+
+Datasett nr. 1: Tabellstørrelse 0.
+
+Datasett nr. 2: Tabellstørrelse 1. Registrer fravær på 5 dager for elev nr. 1.
+
+Datasett nr. 3: Tabellstørrelse 5. Registrer ikke fravær på noen elever.
+
+Datasett nr. 4: Fortsett med tabellen fra datasett 3. Registrer følgende fravær på
+elevene: Elev 1 har 5 dager, elev 3 har 2 dager og elev 5 har 1 dag. De øvrige har
+ikke fravær.
+
+Datasett nr. 5: Fortsett med tabellen fra datasett 4. Registrer nye fravær på alle elev-
+ene i rekkefølge: 2, 1, 4, 2, 1.
+
+Test returverdien fra endreFravær() for gyldig elevnummer i tilknytning til testda-
+tasett 2. For øvrige testes denne metoden implisitt ved at eksempelvis gjennomsnit-
+tet beregnes. I tabelloppsettet prøver vi kun ut denne metoden med ugyldig elev-
+nummer.
+
+Tabell 7.1 Testdatasett for klassen Skoleklasse
+Datasett nr.	finnAntElever()		finnSnittFravær()	finnAntEleverUtenFravær()	endreFravær(7, 3)
+     1			0			-1			0				-1
+     2			1			5			5				-1
+     3			5			0			0				-1
+     4			5			5			1,6				-1
+     5			5			7			3,6				-1

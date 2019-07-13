@@ -1,0 +1,13 @@
+Lag en klasse Transaksjon. Dato og beløp er objektvariabler til klassen. Lagre
+datoen som heltall, eksempel 20091015. Ved å lagre datoen på denne måten kan vi
+finne ut om en dato ligger før eller etter en annen dato ved å sammenligne verdiene.
+Du trenger ikke å legge inn noe kontroll på gyldigheten av en dato.
+
+Lag klassen Konto med muligheten til å legge inn en ny transaksjon og hente ut
+alle transaksjoner innen en gitt tidsperiode. Transaksjonene skal være sortert på
+dato. I tillegg til kontonummer, navn og saldo har vi en tabell av transaksjonsob-
+jekter som objektvariabler i klassen.
+
+Lag et klientprogram for å vedlikeholde en konto. Det skal være mulig å lese inn flere
+transaksjoner fra brukeren. For hver transaksjon skal saldoen skrives ut. Det skal
+også være mulig å få skrevet ut alle transaksjonene innen en bestemt tidsperiode.

@@ -1,0 +1,3 @@
+Skriv et program som finner ut om et tall er et primtall. Et primtall er et tall som
+kun kan deles med 1 og med seg selv uten å få rest. Les inn tallet fra brukeren og 
+la programmet repetere slik at flere tall kan analyseres.

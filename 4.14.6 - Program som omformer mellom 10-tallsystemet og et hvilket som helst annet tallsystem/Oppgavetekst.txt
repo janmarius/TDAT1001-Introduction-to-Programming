@@ -1,0 +1,2 @@
+Lag et program som omformer mellom 10-tallsystemet og et hvilket som helst
+annet tallsystem med grunntall 2-9. Se vedlegg E om tallsystemer.

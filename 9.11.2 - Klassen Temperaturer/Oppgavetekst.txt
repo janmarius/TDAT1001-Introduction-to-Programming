@@ -1,0 +1,15 @@
+Lag en klasse Temperaturer. Den skal inneholde en todimensjonal tabell med tem-
+peraturer for hver time i døgnet i en måned.
+
+Klassen skal tilby metoder som gjør det mulig å finne
+a) middeltemperaturen for hver dag i måneden
+b) middeltemperaturen for hver time i døgnet for måneden
+c) middeltemperaturen for hele måneden
+d) antall døgn med middeltemperatur innen følgende grupper: mindre enn -5 gra-
+   der, mellom -5 og 0, mellom 0 og 5, mellom 5 og 10 og over 10 grader.
+
+Tips: Metodene i oppgavene a, b og d skal returnere referanser til tabeller som inne-
+holder de resultatene det spørres om.
+
+Lag et enkelt klientprogram som kan brukes til å teste klassen. La antall timer i døg-
+net og antall døgn i måneden være lite under testing.

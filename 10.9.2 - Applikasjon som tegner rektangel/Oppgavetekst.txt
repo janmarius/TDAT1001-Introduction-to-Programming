@@ -1,0 +1,4 @@
+Lag en applikasjon som leser inn attributtene til et rektangel og deretter tegner ut
+rektangelet. Under tegningen skal areal og omkrets av rektangelet skrives ut. La
+ledetekstene gi hint om fornuftige verdier, slik at rektangelet ikke kommer utenfor
+vinduet.

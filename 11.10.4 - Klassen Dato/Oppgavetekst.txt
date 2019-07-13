@@ -1,0 +1,16 @@
+Lag en klasse Dato. Bruk klassen GregorianCalender, eventuelt klassen Date fra
+Java-API-et. Unngå å bruke metoder som er merket "deprecated", det gjelder spe-
+sielt for klassen Date.
+
+Klassen Dato skal være immutabel og tilby følgende tjeneseter:
+- konstruktør for dagens dato
+- konstruktør for en gitt dato
+- lage en ny dato som er lik denne datoen pluss et bestemt antall dager (dette
+  antallet kan være negativt)
+- sammenligne to datoer (før, etter eller like)
+- antall dager mellom to datoer
+
+Tips: Det kan ofte være lurt å gå via antall millisekunder i beregningene.
+
+Lag et menystyrt program der brukeren kan skrive inn datoer og få utført de ulike
+oppgavene.

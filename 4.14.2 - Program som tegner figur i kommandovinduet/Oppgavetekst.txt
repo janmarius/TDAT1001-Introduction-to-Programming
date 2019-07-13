@@ -1,0 +1,15 @@
+1 Lag et program som tegner følgende figur på skjermen (i kommandovinduet):
+	*
+	**
+	***
+	****
+	*****
+
+Brukeren skal bestemme antall linjer.
+
+2 Modifiser programmet slik at en trekant tegnes ut i stedet:
+	    *
+	   ***
+	  *****
+	 *******
+	*********

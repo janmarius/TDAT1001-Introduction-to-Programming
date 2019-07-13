@@ -1,0 +1,12 @@
+Ligningskontoret tilbyr hjelp med selvangivelsen. Du skal søke hjelp på et bestemt
+kontor avhengig av hvilken dag i måneden du er født på. De forskjellige kontorene
+kan ikke ta like mange fødselsdager, for de er ulikt bemannet. Se tabell 3.4.
+
+Tabell 3.4 Sammenheng mellom fødselsdag og kontor
+Fødselsdag		Kontor
+1-8			113
+9-14			120
+15-25			125
+26-31			134
+
+Lag et program som leser inn fødselsdagen og skriver ut kontonummeret.

@@ -1,0 +1,9 @@
+Lag en klasse Prosjekt. Prosjekttittel, navn på ansvarlig person samt budsjett (kun
+ett tall) skal legges inn ved prosjektstart. Prosjektet skal også holde rede på egen
+økonomi. Klassen skal ha metoder for å hente ut hver enkelt av opplysningene samt
+en metode som registrerer at et pengebeløp er påløpt prosjektet. Klassen skal også
+ha en toString()-metode.
+
+Klientprogrammet skal lage et prosjektobjekt og la brukeren skrive inn flere
+påløpte beløp. For hvert beløp skal prosjektobjektet oppdateres og all informasjon
+om prosjektet skrives ut.

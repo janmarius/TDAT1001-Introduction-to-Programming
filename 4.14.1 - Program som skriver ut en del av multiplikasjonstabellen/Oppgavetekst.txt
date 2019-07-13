@@ -1,0 +1,23 @@
+Lag et program som skriver ut en del av multiplikasjonstabellen, for eksempel fra
+13 til 15. Da skal utskriften se omtrent slik ut (prikkene skal erstattes med regne-
+stykker):
+
+13-gangen:
+13 x 1 = 13
+13 x 2 = 26
+...
+13 x 10 = 130
+
+14-gangen:
+14 x 1 = 14
+14 x 2 = 28
+...
+14 x 10 = 140
+
+15-gangen:
+15 x 1 = 15
+15 x 2 = 30
+...
+15 x 10 = 150
+
+Brukeren skal velge hvilken del av tabellen som skal skrives ut.

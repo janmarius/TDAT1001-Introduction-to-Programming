@@ -1,0 +1,8 @@
+Lag et program som leser inn et heltall og finner ut følgende:
+- Er tallet positivt?
+- Er tallet delelig med et gitt tall?
+- Er tallet i et gitt lukket intervall?
+
+Tegn et aktivitetsdiagram som viser algoritmen. Lag deretter programmet. Pro-
+grammet skal kontrollere at øvre grense av intervallet er større eller lik nedre
+grense. Prøv programmet med noen utvalgte data.

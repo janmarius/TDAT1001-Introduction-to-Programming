@@ -1,0 +1,12 @@
+Skriv et program som skriver ut tallverdiene for et intervall av tegn. Eksempelvis
+skal intervallet 'A'-'F' gi følgende utskrift:
+
+Tegnet A har tallverdien 65
+Tegnet B har tallverdien 66
+Tegnet C har tallverdien 67
+Tegnet D har tallverdien 68
+Tegnet E har tallverdien 69
+Tegnet F har tallverdien 70
+
+Øvre og nedre grense for intervallet skal leses inn som tegn fra brukeren.
+Tips: Du trenger å omforme fra datatypen char til datatypen int (se side 74).

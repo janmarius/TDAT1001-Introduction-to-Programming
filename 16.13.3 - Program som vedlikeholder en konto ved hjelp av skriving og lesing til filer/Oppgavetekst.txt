@@ -1,0 +1,22 @@
+Lag et program som vedlikeholder en konto ut fra følgende spesifikasjoner:
+
+Forrige saldo ligger på filen saldo.txt. Transaksjonene for siste periode ligger på en
+fil. Filen inneholder en linje pr. transaksjon. Hver linje inneholder en bokstav som
+sier hvilken type transaksjon, og et beløp.
+
+Transaksjonskoder: U for uttak, I for innskudd.
+
+Etter at transaksjonsfilen er behandlet, må den nye saldoen legges på filen saldo.txt.
+
+Enkelttransaksjoner som fører til at kontoen går i minus, er i orden. Dersom netto-
+resultatet til slutt er slik at saldoen er negativ, skal imidlertid hele transaksjonsfilen
+forkastes. Ingen transaksjoner skal registreres i dette tilfellet.
+
+Eksempel: Startsaldo: kr 5460,70. Transaksjonsfilen har følgende innhold:
+
+U 450
+I 567.80
+I 4000.00
+U 500
+
+Resultat: Ny saldo blir kr 9078,50.

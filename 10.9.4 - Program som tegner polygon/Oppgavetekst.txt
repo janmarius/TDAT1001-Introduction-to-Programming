@@ -1,0 +1,3 @@
+Lag et program (applet eller applikasjon) som tegner et polygon (mangekant) ved
+å tegne linje for linje. Hjørnekoordinatene i polygonet genereres ved hjelp av tilfel-
+digtallgeneratoren (klassen Random, side 238).

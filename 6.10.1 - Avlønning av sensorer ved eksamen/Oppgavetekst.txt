@@ -1,0 +1,31 @@
+Du skal i denne oppgaven arbeide med avlønning av sensorer ved eksamen.
+
+Et objekt av klassen Sensurering inneholder navnet på faget det er eksamne i, typen
+eksamen, eksamenstidens lengde og antall besvarelser.
+
+Vi skiller mellom tre typer eksamener med ulik type avlønning:
+- Muntlig eksamen. Sensoren får her for tre timer forberedelse pluss faktisk
+  medgått tid til gjennomføring av eksamen. Antall besvarelser er ikke rele-
+  vant for denne typen eksamen.
+- Skriftlig eksamen. Også her beregnes tre timers forberedelse. Her får sensoren
+  betalt for et bestemt antall timer uavhengig av faktisk forbrukt tid. Antall timer
+  per besvarelse avhenger av antall besvarelser og eksamenstidens lengde:
+  Tidsforbruk for de 10 første besvarelsene settes lik 0,15 * eksamenstidens
+  lengde per besvarelse. Eksempel: 8 besvarelser, 4 timers eksamen, gir 8 * 4 *
+  0,15 + 5 * 4 * 0,1 = 6,0 + 2,0 = 8,0 timer.
+- Prosjektoppgave. For sensurering av en oppgave får sensoren lønn for 8 timer.
+  Eksamenstidens lengde er ikke relevant her.
+
+Hovedhensikten med klassen er at den skal kunne beregne hvor mange timer en
+sensor skal ha betalt for. Lag en metode som løser oppgaven. Du kan med
+fordel lage flere hjelpemetoder. Vurder hvorvidt de bør være offentlige eller ikke.
+
+Prøv ut klassen med dataene i tabell 6.2.
+
+Tabell 6.2 Testdata for oppgave 1
+Eksamenstype	Antall besvarelser	Eksamenstid	Antall timer
+muntlig					     15,5	     18,5
+skriftlig		50		     4		     25,0
+skriftlig		10		     5		     10,5
+skriftlig		5		     3		     5,25
+prosjekt		5				     40,0

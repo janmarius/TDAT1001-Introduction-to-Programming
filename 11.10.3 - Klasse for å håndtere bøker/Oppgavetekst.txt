@@ -1,0 +1,9 @@
+Lag en klasse for å håndtere bøker. Navn, forfatter, utgivelsesår, antall sider og for-
+lag er aktuelle attributter for ei bok. I tillegg til get-metoder skal du lage operasjo-
+ner som sammenligner alderen til to bøker, som sammenligner antall sider, og som
+finner ut om to bøker er skrevet av den samme forfatteren, eller om de er utgitt på
+samme forlag.
+
+Lag et enkelt program som prøve ut klassen.
+
+(Å finne inneværende år: se oppgave 1)

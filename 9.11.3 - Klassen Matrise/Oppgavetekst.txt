@@ -1,0 +1,10 @@
+Lag en klasse Matrise. Den skal inneholde en todimensjonal tabell som svarer til
+en matrise i matematikken. Lag metoder for å
+- addere en matrise til denne matrisen
+- multiplisere denne matrisen med en annen matrise
+- transponere matrisen
+
+Klassen skal være immutabel. Det vil si at alle metoder må lage nye matriser som
+returneres. Dersom operasjonene er umulige, skal metodene returnere null.
+
+Lag et enkel klientprogram som kan brukes til å teste klassen.

@@ -1,0 +1,3 @@
+La klassen NyString fra oppgave 1 i stedet inneholde et objekt av klassen String-
+Builder. La den ellers tilby de samme tjenestene. Bestem selv om klassen skal være
+mutabel eller immutabel.

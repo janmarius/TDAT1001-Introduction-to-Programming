@@ -1,0 +1,13 @@
+Du skal lage et program som regner ut en "hovedkarakter" ut fra en rekke karakte-
+rer. Karakteren leses inn som en bokstav i intervallet 'A'-'E'. (Strykkarakterer er
+ikke med her.) Hovedkarakteren regnes ut som gjennomsnittet av alle karakterene.
+Dersom gjennomsnittet havner midt mellom to karakterer, skal resultatet vippes
+opp. Eksempel: Gjennomsnittet av B og C er B.
+
+Tips: Ved beregningene bruker du tallverdien som hver enkelt av bokstavene repre-
+senterer. Tallverdien til A er 65, til B 66 osv. Se også oppgave 3.
+
+En revidert utgave av dette programmet kan i stedet beregne et veiet snitt. Antall
+studiepoeng leses inn for hver enkelt karakter. Karakteren må da før summering
+multipliseres med dette tallet, og sluttsummen må divideres med summen av antall
+studiepoeng.

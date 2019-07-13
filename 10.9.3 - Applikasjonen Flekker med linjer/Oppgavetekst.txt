@@ -1,0 +1,10 @@
+Du skal lage applikasjonen på figur 10.13. Tegningen har størrelse 400 x 300 piks-
+ler. Den består av 10 sammenhengende streker. Koordinater til hjørnepunktene
+trekkes fra et objekt av klassen Random. Pass på slik at hjørnene ikke kommer
+utenfor vinduet. I hvert hjørnepunkt skal det være en fylt sirkel med diameter 20
+piksler.
+
+Ekstraoppgaver:
+- Endre programmet slik at siste fylte sirkel bindes sammen med første sirkel ved
+  hjelp av en strek.
+- Endre programmet slik at annenhver sirkel er fylt og annenhver er åpen.
