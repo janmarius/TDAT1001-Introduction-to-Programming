@@ -37,3 +37,7 @@
 - [1 - Hello, World!](1%20-%20Hello%2C%20World!)
 - [3.12.1 - Ligningskontoret, program som leser inn fødselsdagen og skriver ut kontornummeret](3.12.1%20-%20Ligningskontoret%2C%20program%20som%20leser%20inn%20fødselsdagen%20og%20skriver%20ut%20kontornummeret)
 - [3.12.2 - Program som leser inn heltall og finner ut om tall positivt, delelig eller lukket intervall](3.12.2%20-%20Program%20som%20leser%20inn%20heltall%20og%20finner%20ut%20om%20tall%20positivt%2C%20delelig%20eller%20lukket%20intervall)
+- [4.14.2 - Program som tegner figur i kommandovinduet](4.14.2%20-%20Program%20som%20tegner%20figur%20i%20kommandovinduet)
+- [4.14.3 - Program som skriver ut tallverdiene for et intervall av tegn](4.14.3%20-%20Program%20som%20skriver%20ut%20tallverdiene%20for%20et%20intervall%20av%20tegn)
+- [4.14.4 - Program som regner ut en hovedkarakter ut fra en rekke karakterer](4.14.4%20-%20Program%20som%20regner%20ut%20en%20hovedkarakter%20ut%20fra%20en%20rekke%20karakterer)
+- [4.14.6 - Program som omformer mellom 10-tallsystemet og et hvilket som helst annet tallsystem](4.14.6%20-%20Program%20som%20omformer%20mellom%2010-tallsystemet%20og%20et%20hvilket%20som%20helst%20annet%20tallsystem)
