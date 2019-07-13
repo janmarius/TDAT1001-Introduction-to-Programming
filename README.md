@@ -6,10 +6,20 @@
   - [2.13.2 - Timer, minutter og sekunder til antall sekunder](2.13.2%20-%20Timer%2C%20minutter%20og%20sekunder%20til%20antall%20sekunder)
   - [2.13.3 - Sekunder til antall timer, minutter og sekunder](2.13.3%20-%20Sekunder%20til%20antall%20timer%2C%20minutter%20og%20sekunder)
 - Assignment 2
+  - [3.12.3 - Program som finner ut om et år er skuddår](2.13.3%20-%20Sekunder%20til%20antall%20timer%2C%20minutter%20og%20sekunder)
+  - [3.12.4 - Program som sammenligner kjøttdeigpris](3.12.4%20-%20Program%20som%20sammenligner%20kjøttdeigpris)
 - Assignment 3
+  - [4.14.1 - Program som skriver ut en del av multiplikasjonstabellen](4.14.1%20-%20Program%20som%20skriver%20ut%20en%20del%20av%20multiplikasjonstabellen)
+  - [4.14.5 - Program som finner ut om et tall er et primtall](4.14.5%20-%20Program%20som%20finner%20ut%20om%20et%20tall%20er%20et%20primtall)
 - Assignment 4
+  - [5.9.2 - Valutakalkulator som regner fra og til norske kroner](5.9.2%20-%20Valutakalkulator%20som%20regner%20fra%20og%20til%20norske%20kroner)
+  - [5.9.3 - Terningspillet 100 med to spillere](5.9.3%20-%20Terningspillet%20100%20med%20to%20spillere)
 - Assignment 5
+  - [6.10.2 - En klasse for å regne med brøk](6.10.2%20-%20En%20klasse%20for%20å%20regne%20med%20brøk)
+  - [6.10.3 - Lag en klasse MinRandom som tilbyr diverse metoder](6.10.3%20-%20Lag%20en%20klasse%20MinRandom%20som%20tilbyr%20diverse%20metoder)
 - Assignment 6
+  - [7.8.1 - Program som går i løkke og henter ut tilfeldige tall](7.8.1%20-%20Program%20som%20går%20i%20løkke%20og%20henter%20ut%20tilfeldige%20tall)
+  - [7.8.3 - Klasse for tekstanalyse](7.8.3%20-%20Klasse%20for%20tekstanalyse)
 - Assignment 7
 - Assignment 8
 - Assignment 9
