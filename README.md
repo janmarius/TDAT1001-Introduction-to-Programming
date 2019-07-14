@@ -55,3 +55,23 @@
 - [11.10.3 - Klasse for å håndtere bøker](11.10.3%20-%20Klasse%20for%20å%20håndtere%20bøker)
 - [11.10.4 - Klassen Dato](11.10.4%20-%20Klassen%20Dato)
 - [12.10.2 - Klassen Transaksjon og Konto](12.10.2%20-%20Klassen%20Transaksjon%20og%20Konto)
+
+
+## Code Examples
+equals Method
+```java
+@Override
+public boolean equals(Object other) {
+    // type check
+    if (!(other instanceof ClassName)) return false;
+    
+    // self check
+    if (this == other) return true;
+    
+    // cast
+    ClassName className = (ClassName) other;
+    
+    // field comparison
+    return Objects.equals(variableName, className.variableName)
+}
+```
