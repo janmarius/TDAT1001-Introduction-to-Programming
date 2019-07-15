@@ -58,7 +58,15 @@
 
 
 ## Code Examples
-equals Method
+**toString-method**
+```java
+@Override
+public String toString() {
+    return "Name: " + firstName + " " + lastName;
+}
+```
+
+**equals-method**
 ```java
 @Override
 public boolean equals(Object other) {
