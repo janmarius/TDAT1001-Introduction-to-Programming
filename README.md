@@ -388,3 +388,33 @@ try {
     System.out.println("I/O exception of some sort has occurred!");
 }
 ```
+
+**Write object to file**
+```java
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+// Remember to use implements Serializable behind the class name for the classes you want to write.
+try {
+    // An abstract representation of file and directory pathnames.
+    File file = new File("fileName.ser");
+
+    // FileOutputStream is an output stream for writing data to a File or to a FileDescriptor.
+    FileOutputStream fos = new FileOutputStream(file);
+
+    // An ObjectOutputStream writes primitive data types and graphs of Java objects to an OutputStream.
+    ObjectOutputStream oos = new ObjectOutputStream(fos);
+    oos.writeObject(theObject);
+
+    // oos.close and fos.close closes the stream and releases any system resources associated with it
+    oos.close();
+    fos.close();
+} catch (FileNotFoundException e) {
+    System.out.println("File not found!");
+} catch (IOException e) {
+    System.out.println("I/O exception of some sort has occurred!");
+}
+```
