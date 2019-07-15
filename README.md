@@ -349,3 +349,43 @@ try {
     System.out.println("I/O exception of some sort has occurred!");
 }
 ```
+
+**Write text to file**
+```java
+import java.io.File;
+import java.io.FileWriter;
+import java.io.BufferedWriter;
+import java.io.PrintWriter;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+try {
+    // An abstract representation of file and directory pathnames.
+    File file = new File("C:\\Users\\Jan-Marius\\Desktop\\SkrivingOgLesingTilFiler\\src\\com\\company\\fileName.txt");
+
+    // boolean indicating whether or not to append the data written.
+    boolean append = true;
+
+    // FileWriter is meant for writing character files.
+    FileWriter fw = new FileWriter(file, append);
+
+    // BufferedWriter writes text to a character-output stream.
+    BufferedWriter bw = new BufferedWriter(fw);
+
+    // PrintWriter prints formatted representations of objects to a text-output stream.
+    PrintWriter pw = new PrintWriter(bw);
+
+    // PrintWriter offers the same methods as System.out
+    pw.println("Some formatted text,\nwe want to write to a file.");
+
+    // bw.close, pw.close and fw.close closes the stream and releases any system resources associated with it.
+    bw.close();
+    pw.close();
+    fw.close();
+} catch (FileNotFoundException e) {
+    System.out.println("File not found!");
+} catch (IOException e) {
+    System.out.println("I/O exception of some sort has occurred!");
+}
+}
+```
