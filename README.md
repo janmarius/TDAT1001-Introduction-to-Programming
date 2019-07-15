@@ -316,3 +316,36 @@ public class Person implements Comparable<Person> {
 // Tom Hardy        19770915
 // Brad Pitt        19631218
 ```
+
+**Read text from file**
+```java
+import java.io.File;
+import java.io.FileReader;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+try {
+    // An abstract representation of file and directory pathnames.
+    File file = new File("fileName.txt");
+
+    // FileReader is meant for reading streams of characters.
+    FileReader fr = new FileReader(file);
+
+    // BufferedReader reads text from a character-input stream.
+    BufferedReader br = new BufferedReader(fr);
+    String line = br.readLine();
+    while (line != null) {
+        System.out.println(line);
+        line = br.readLine();
+    }
+
+    // br.close and fr.close closes the stream and releases any system resources associated with it.
+    br.close();
+    fr.close();
+} catch (FileNotFoundException e) {
+    System.out.println("File not found!");
+} catch (IOException e) {
+    System.out.println("I/O exception of some sort has occurred!");
+}
+```
