@@ -33,7 +33,7 @@
 - Assignment 11
   - [16.13.3 - Program som vedlikeholder en konto ved hjelp av skriving og lesing til filer](16.13.3%20-%20Program%20som%20vedlikeholder%20en%20konto%20ved%20hjelp%20av%20skriving%20og%20lesing%20til%20filer)
 
-## Extra Excercises
+## Additional Excercises
 - [1 - Hello, World!](1%20-%20Hello%2C%20World!)
 - [3.12.1 - Ligningskontoret, program som leser inn fødselsdagen og skriver ut kontornummeret](3.12.1%20-%20Ligningskontoret%2C%20program%20som%20leser%20inn%20fødselsdagen%20og%20skriver%20ut%20kontornummeret)
 - [3.12.2 - Program som leser inn heltall og finner ut om tall positivt, delelig eller lukket intervall](3.12.2%20-%20Program%20som%20leser%20inn%20heltall%20og%20finner%20ut%20om%20tall%20positivt%2C%20delelig%20eller%20lukket%20intervall)
