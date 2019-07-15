@@ -150,3 +150,148 @@ public class Person implements Comparable<Person> {
 // Jennifer Aniston 19690211
 // Tom Hardy        19770915
 ```
+
+**compare-method**
+```java
+// PersonComparatorFirstName should be declared in a own file named PersonComparatorFirstName.java
+import java.util.Comparator;
+
+public class PersonComparatorFirstName implements Comparator<Person> {
+    @Override
+    public int compare(Person person1, Person person2) {
+        if (person1 == null && person2 == null) return 0;
+        if (person1 == null) return -1;
+        if (person2 == null) return 1;
+
+        if (person1.equals(person2)) return 0;
+
+        return person1.getFirstName().compareTo(person2.getFirstName());
+    }
+}
+
+// PersonComparatorLastName should be declared in a own file named PersonComparatorLastName.java
+import java.util.Comparator;
+
+public class PersonComparatorLastName implements Comparator<Person> {
+    @Override
+    public int compare(Person person1, Person person2) {
+        if (person1 == null && person2 == null) return 0;
+        if (person1 == null) return -1;
+        if (person2 == null) return 1;
+
+        if (person1.equals(person2)) return 0;
+
+        return person1.getLastName().compareTo(person2.getLastName());
+    }
+}
+
+// Person should be declared in a own file named Person.java
+import java.util.Arrays;
+
+public class Person implements Comparable<Person> {
+    private String firstName;
+    private String lastName;
+    private int dateOfBirth; // Date format: yyyyMMdd
+
+    public Person(String firstName, String lastName, int dateOfBirth) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    @Override
+    public int compareTo(Person other) {
+        if (other == null) {
+            throw new NullPointerException();
+        }
+
+        if (dateOfBirth < other.dateOfBirth) {
+            return -1;
+        }
+        if (dateOfBirth > other.dateOfBirth) {
+            return 1;
+        }
+        return 0;
+    }
+
+    @Override
+    public String toString() {
+        return firstName + " " + lastName + " " + dateOfBirth;
+    }
+
+    public static void main(String[] args) {
+        Person[] persons = new Person[5];
+        persons[0] = new Person("James", "Bond", 19201111);
+        persons[1] = new Person("Jennifer", "Aniston", 19690211);
+        persons[2] = new Person("Tom", "Hardy", 19770915);
+        persons[3] = new Person("Brad", "Pitt", 19631218);
+        persons[4] = new Person("Johnny", "Cash", 19320226);
+
+        System.out.println("Unsorted:");
+        for (Person p : persons) {
+            System.out.println(p);
+        }
+
+        Arrays.sort(persons);
+
+        System.out.println("\nSorted by date of birth:");
+        for (Person p : persons) {
+            System.out.println(p);
+        }
+
+        Arrays.sort(persons, new PersonComparatorFirstName());
+
+        System.out.println("\nSorted by first name:");
+        for (Person p : persons) {
+            System.out.println(p);
+        }
+
+        Arrays.sort(persons, new PersonComparatorLastName());
+
+        System.out.println("\nSorted by last name:");
+        for (Person p : persons) {
+            System.out.println(p);
+        }
+    }
+}
+
+// Unsorted:
+// James Bond       19201111
+// Jennifer Aniston 19690211
+// Tom Hardy        19770915
+// Brad Pitt        19631218
+// Johnny Cash      19320226
+//
+// Sorted by date of birth:
+// James Bond       19201111
+// Johnny Cash      19320226
+// Brad Pitt        19631218
+// Jennifer Aniston 19690211
+// Tom Hardy        19770915
+//
+// Sorted by first name:
+// Brad Pitt        19631218
+// James Bond       19201111
+// Jennifer Aniston 19690211
+// Johnny Cash      19320226
+// Tom Hardy        19770915
+//
+// Sorted by last name:
+// Jennifer Aniston 19690211
+// James Bond       19201111
+// Johnny Cash      19320226
+// Tom Hardy        19770915
+// Brad Pitt        19631218
+```
