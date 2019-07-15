@@ -418,3 +418,34 @@ try {
     System.out.println("I/O exception of some sort has occurred!");
 }
 ```
+
+**Read object from file**
+```java
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+try {
+    // An abstract representation of file and directory pathnames.
+    File file = new File("C:\\Users\\Jan-Marius\\Desktop\\SkrivingOgLesingTilFiler\\src\\com\\company\\fileName.ser");
+
+    // FileInputStream is meant for reading streams of raw bytes
+    FileInputStream fis = new FileInputStream(file);
+
+    // ObjectInputStream deserializes primitive data and objects previously written using an ObjectOutputStream.
+    ObjectInputStream ois = new ObjectInputStream(fis);
+    TheClass theClass = (TheClass) ois.readObject();
+
+    // ois.close and fis.close closes the stream and releases any system resources associated with it
+    ois.close();
+    fis.close();
+} catch (FileNotFoundException e) {
+    System.out.println("File not found!");
+} catch (IOException e) {
+    System.out.println("I/O exception of some sort has occurred!");
+} catch (ClassNotFoundException e) {
+    System.out.println("Class not found exception has occurred!");
+}
+```
