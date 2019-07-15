@@ -429,7 +429,7 @@ import java.io.IOException;
 
 try {
     // An abstract representation of file and directory pathnames.
-    File file = new File("C:\\Users\\Jan-Marius\\Desktop\\SkrivingOgLesingTilFiler\\src\\com\\company\\fileName.ser");
+    File file = new File("fileName.ser");
 
     // FileInputStream is meant for reading streams of raw bytes
     FileInputStream fis = new FileInputStream(file);
