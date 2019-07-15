@@ -434,7 +434,7 @@ try {
     // FileInputStream is meant for reading streams of raw bytes
     FileInputStream fis = new FileInputStream(file);
 
-    // ObjectInputStream deserializes primitive data and objects previously written using an ObjectOutputStream.
+    // ObjectInputStream deserializes objects previously written using an ObjectOutputStream.
     ObjectInputStream ois = new ObjectInputStream(fis);
     TheClass theClass = (TheClass) ois.readObject();
 
