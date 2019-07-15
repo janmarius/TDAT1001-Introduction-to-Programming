@@ -361,7 +361,7 @@ import java.io.IOException;
 
 try {
     // An abstract representation of file and directory pathnames.
-    File file = new File("C:\\Users\\Jan-Marius\\Desktop\\SkrivingOgLesingTilFiler\\src\\com\\company\\fileName.txt");
+    File file = new File("fileName.txt");
 
     // boolean indicating whether or not to append the data written.
     boolean append = true;
