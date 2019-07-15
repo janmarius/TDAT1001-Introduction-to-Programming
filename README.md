@@ -83,3 +83,70 @@ public boolean equals(Object other) {
     return Objects.equals(variableName, className.variableName)
 }
 ```
+
+**compareTo-method**
+```java
+import java.util.Arrays;
+
+public class Person implements Comparable<Person> {
+    private String firstName;
+    private String lastName;
+    private int dateOfBirth; // Date format: yyyyMMdd
+
+    public Person(String firstName, String lastName, int dateOfBirth) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    @Override
+    public int compareTo(Person other) {
+        if (other == null) {
+            throw new NullPointerException();
+        }
+
+        if (dateOfBirth < other.dateOfBirth) {
+            return -1;
+        }
+        if (dateOfBirth > other.dateOfBirth) {
+            return 1;
+        }
+        return 0;
+    }
+
+    @Override
+    public String toString() {
+        return firstName + " " + lastName + " " + dateOfBirth;
+    }
+
+    public static void main(String[] args) {
+        Person[] persons = new Person[5];
+        persons[0] = new Person("James", "Bond", 19201111);
+        persons[1] = new Person("Jennifer", "Aniston", 19690211);
+        persons[2] = new Person("Tom", "Hardy", 19770915);
+        persons[3] = new Person("Brad", "Pitt", 19631218);
+        persons[4] = new Person("Johnny", "Cash", 19320226);
+
+        for (Person p : persons) {
+            System.out.println(p);
+        }
+
+        Arrays.sort(persons);
+
+        for (Person p : persons) {
+            System.out.println(p);
+        }
+    }
+}
+// James Bond       19201111
+// Jennifer Aniston 19690211
+// Tom Hardy        19770915
+// Brad Pitt        19631218
+// Johnny Cash      19320226
+//
+// James Bond       19201111
+// Johnny Cash      19320226
+// Brad Pitt        19631218
+// Jennifer Aniston 19690211
+// Tom Hardy        19770915
+```
