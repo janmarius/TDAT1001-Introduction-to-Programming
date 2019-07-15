@@ -58,6 +58,27 @@
 
 
 ## Code Examples
+**Binary Search**
+```java
+public static int binarySearch(int[] sortedArray, int value) {
+    int start = 0;
+    int end = sortedArray.length - 1;
+    while (start <= end) {
+        int middle = (start + end) / 2;
+        if (sortedArray[middle] == value) {
+            return middle;
+        } else {
+            if (sortedArray[middle] < value) {
+                start = middle + 1;
+            } else {
+                end = middle - 1;
+            }
+        }
+    }
+    return -start - 1; // returns negative int if value not found.
+}
+```
+
 **toString-method**
 ```java
 @Override
