@@ -409,7 +409,7 @@ try {
     ObjectOutputStream oos = new ObjectOutputStream(fos);
     oos.writeObject(theObject);
 
-    // oos.close and fos.close closes the stream and releases any system resources associated with it
+    // oos.close and fos.close closes the stream and releases any system resources associated with it.
     oos.close();
     fos.close();
 } catch (FileNotFoundException e) {
@@ -438,7 +438,7 @@ try {
     ObjectInputStream ois = new ObjectInputStream(fis);
     TheClass theClass = (TheClass) ois.readObject();
 
-    // ois.close and fis.close closes the stream and releases any system resources associated with it
+    // ois.close and fis.close closes the stream and releases any system resources associated with it.
     ois.close();
     fis.close();
 } catch (FileNotFoundException e) {
